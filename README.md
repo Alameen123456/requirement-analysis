@@ -118,12 +118,16 @@ Below is a use case diagram for a **Booking Management System**. The diagram inc
 6) Send Confirmation Email: The system sends a confirmation email to the user upon successful booking.
 
 
-cceptance Criteria for the Checkout Feature:
+Acceptance Criteria for the Checkout Feature:
 
-The user must be able to view a summary of their booking details (e.g., date, time, service type, total cost) before proceeding to payment.
-The system should allow the user to select a payment method from available options (credit card, PayPal, etc.).
+1)nThe user must be able to view a summary of their booking details (e.g., date, time, service type, total cost) before proceeding to payment.
+
+2) The system should allow the user to select a payment method from available options (credit card, PayPal, etc.).
 Upon successful payment, the user should receive a confirmation message and a booking reference number.
 If the payment fails, the user should be presented with a relevant error message and prompted to retry or choose an alternative payment method.
-The system must update the booking status to "Confirmed" upon successful payment and store the transaction details.
-The checkout process must be completed within 5 minutes to avoid session timeouts.
-The system should send an email confirmation to the user with the booking details and payment receipt.
+
+3) The system must update the booking status to "Confirmed" upon successful payment and store the transaction details.
+
+4)The checkout process must be completed within 5 minutes to avoid session timeouts.
+
+5}The system should send an email confirmation to the user with the booking details and payment receipt.
